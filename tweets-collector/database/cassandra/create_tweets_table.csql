@@ -1,0 +1,14 @@
+CREATE  TABLE tweets (
+  subject text,
+  id BIGINT,
+  created_at_datetime timestamp,
+  created_at_date text,
+  source text,
+  tweet text,
+  hashtags list<text>,
+  user_name text,
+  user_screen_name text,
+  location text,
+  time_zone text,
+  time_loaded timeuuid,
+  PRIMARY KEY (subject, created_at_date, id)

@@ -1,0 +1,49 @@
+<configuration scan="true">
+	
+			<!-- name of api application -->
+			<property name="APPLICATION" value="tweetsgobbler" />
+		
+			<!-- definition of appender STDOUT -->
+			<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+				<encoder>
+					<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+				</encoder>
+			</appender>
+		
+			<!-- Create rolling log with daily rollover -->
+			<appender name="FILE"
+				class="ch.qos.logback.core.rolling.RollingFileAppender">
+				<!-- <file>EEMSLog.log</file> -->
+		
+				<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+					<!-- daily rollover -->
+					<fileNamePattern>logs/${APPLICATION}_operation_%d{yyyy-MM-dd}.log</fileNamePattern>
+		
+					<!-- keep 30 days' worth of history -->
+					<maxHistory>30</maxHistory>
+				</rollingPolicy>
+				<encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+					<layout class="ch.qos.logback.classic.PatternLayout">
+						<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+						</pattern>
+					</layout>
+				</encoder>
+			</appender>
+			
+			
+			<root level="TRACE">
+		        <appender-ref ref="TRACE" />
+		    </root>
+	
+			
+			<logger name="org.andresoft.tweetsgobbler" level="DEBUG" /> <!-- this should be lowered for production -->		
+			<logger name="org.apache.flume" level="DEBUG" />
+			<root level="info">
+				<appender-ref ref="STDOUT" />
+				<appender-ref ref="FILE" />
+			</root>
+	
+</configuration>
+
+
+

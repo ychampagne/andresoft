@@ -1,0 +1,100 @@
+{
+    "in_reply_to_status_id_str":null,
+    "in_reply_to_status_id":null,
+    "created_at":"Tue Oct 20 21:37:02 +0000 2015",
+    "in_reply_to_user_id_str":null,
+    "source":"<a href=\"http://dlvr.it\" rel=\"nofollow\">dlvr.it<\/a>",
+    "retweet_count":0,
+    "retweeted":false,
+    "geo":null,
+    "filter_level":"low",
+    "in_reply_to_screen_name":null,
+    "is_quote_status":false,
+    "id_str":"656584937173192704",
+    "in_reply_to_user_id":null,
+    "favorite_count":0,
+    "id":656584937173192704,
+    "text":"Solar Energy Plants Are Harming California's Wildlife - The Libertarian Republic https://t.co/gpifj4kyEu",
+    "place":null,
+    "lang":"en",
+    "favorited":false,
+    "possibly_sensitive":false,
+    "coordinates":null,
+    "truncated":false,
+    "timestamp_ms":"1445377022437",
+    "entities":{
+        "urls":[
+            {
+                "display_url":"dlvr.it/CVhrpD",
+                "indices":[
+                    81,
+                    104
+                ],
+                "expanded_url":"http://dlvr.it/CVhrpD",
+                "url":"https://t.co/gpifj4kyEu"
+            }
+        ],
+        "hashtags":[
+            {
+                "text":"Crowdsourcing",
+                "indices":[
+                    0,
+                    14
+                ]
+            },
+            {
+                "text":"bigdata",
+                "indices":[
+                    129,
+                    137
+                ]
+            }
+        ],
+        "user_mentions":[
+            
+        ],
+        "symbols":[
+            
+        ]
+    },
+    "contributors":null,
+    "user":{
+        "utc_offset":28800,
+        "friends_count":4526,
+        "profile_image_url_https":"https://pbs.twimg.com/profile_images/2271791368/u8ttczgjp6298zjs5flu_normal.jpeg",
+        "listed_count":83,
+        "profile_background_image_url":"http://pbs.twimg.com/profile_background_images/568473766/6yq4ztlrb95jwc4ioqet.jpeg",
+        "default_profile_image":false,
+        "favourites_count":0,
+        "description":"Follow us to get the latest news about Wildlife.",
+        "created_at":"Fri Apr 20 14:37:22 +0000 2012",
+        "is_translator":false,
+        "profile_background_image_url_https":"https://pbs.twimg.com/profile_background_images/568473766/6yq4ztlrb95jwc4ioqet.jpeg",
+        "protected":false,
+        "screen_name":"WildlifePlaza",
+        "id_str":"558767808",
+        "profile_link_color":"0084B4",
+        "id":558767808,
+        "geo_enabled":false,
+        "profile_background_color":"C0DEED",
+        "lang":"en",
+        "profile_sidebar_border_color":"C0DEED",
+        "profile_text_color":"333333",
+        "verified":false,
+        "profile_image_url":"http://pbs.twimg.com/profile_images/2271791368/u8ttczgjp6298zjs5flu_normal.jpeg",
+        "time_zone":"Beijing",
+        "url":null,
+        "contributors_enabled":false,
+        "profile_background_tile":true,
+        "statuses_count":15076,
+        "follow_request_sent":null,
+        "followers_count":3873,
+        "profile_use_background_image":true,
+        "default_profile":false,
+        "following":null,
+        "name":"Wildlife Plaza",
+        "location":null,
+        "profile_sidebar_fill_color":"DDEEF6",
+        "notifications":null
+    }
+}
