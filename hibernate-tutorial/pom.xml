@@ -5,7 +5,7 @@
 	<artifactId>hibernate-tutorial</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hibernate-tutorial</name>
-	
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -51,6 +51,12 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.easymock</groupId>
+			<artifactId>easymock</artifactId>
+			<version>2.4</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
